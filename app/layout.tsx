@@ -1,5 +1,6 @@
 import './globals.css'
 import Navbar from "@/app/components/Navbar";
+import MyProfileImg from "@/app/components/MyProfileImg";
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
     <body className="bg-slate-800">
     <Navbar/>
+    <MyProfileImg/>
     {children}
     </body>
     </html>
