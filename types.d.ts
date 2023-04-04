@@ -1,5 +1,5 @@
-type IBlogPost = {
+export type IBlogPost = {
   id: string;
   title: string;
-  data: string;
+  date: string;
 }
