@@ -3,3 +3,7 @@ export type IBlogPost = {
   title: string;
   date: string;
 }
+
+export type IBlogPostHtml = {
+  contentHtml: string;
+} & IBlogPost
